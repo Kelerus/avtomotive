@@ -155,6 +155,12 @@ ul {
     padding: 20px 0;
     background: #c62314;
     border-radius: 10px;
+    outline: none;
+}
+
+.form-setting input[type='submit']:hover {
+    background: #831d13;
+
 }
 /* Секция header end*/
 
@@ -194,9 +200,12 @@ ul {
     padding: 10px 0;
 }
 
-.story__items p{
+.story__items h2{
     width: 650px;
+    font-weight: normal;
     color: white;
+    font-size: 20px;
+    text-transform: initial;
 }
 
 .story_flex {
